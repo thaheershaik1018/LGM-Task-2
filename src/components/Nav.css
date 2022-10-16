@@ -1,0 +1,22 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 5px 0 5px 0; 
+    background: #364b55;
+    z-index: 5;
+}
+.max-width{
+    margin: auto;
+    display: flex;
+    padding: 0 80px; 
+    max-width: 1300px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    color: #fff;
+    font-size: 35px; 
+    font-weight: 600;
+    cursor: pointer; 
+    font-family: 'Lobster Two', cursive; 
+}
